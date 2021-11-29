@@ -12,7 +12,7 @@ import java.util.List;
 public class StudentController {
     private final StudentService studentService;
 
-    @Autowired
+    @Autowired //Injecting a bean
     public StudentController(StudentService studentService) {
         this.studentService = studentService;
     }
